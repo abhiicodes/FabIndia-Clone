@@ -1,33 +1,24 @@
-function navbar (){
-return `<div id="header">
+function navbar() {
+  return `<div id="header">
       <div id="navbar">
         <div id="nav-left">
             <div>
-                 <a href=""><img class="iconimg" src="https://www.fabindia.com/file/general/icon-storelocator-black.png" alt="Store Locator"/></a>
+                 <a href=""><img class="iconimg" src="https://www.fabindia.com/assets/icons/wishlist.svg" alt="Store Locator"/></a>
             </div>
             <div>
-                <a href="./signUp.html"><img class="iconimg" src="https://www.fabindia.com/file/general/icon-signin-black.png" alt="Store Locator"/></a>
+                <a href="./signUp.html"><img class="iconimg" src="https://www.fabindia.com/assets/icons/Account_Icon.svg" alt="Store Locator"/></a>
             </div>
        
         </div>
         <div id="logo">
-            <a href="./index.html"><img class="logo" src="https://www.fabindia.com/file/general/Fabindia_logo.svg" alt="Store Locator"/></a>
+            <a href="./index.html"><img class="logo" src="https://apisap.fabindia.com/medias/fabindia-logo.svg?context=bWFzdGVyfGltYWdlc3wxNjk0NHxpbWFnZS9zdmcreG1sfGgwNS9oZTQvODkxMDEzMDY0Mjk3NC9mYWJpbmRpYV9sb2dvLnN2Z3w0NzU1ZWM5MThjZDJlMDRkYTNhMjdkMTk5ZjhmMjU3ZDRlMjk2MzVlYjNjN2UxZjE5YmEwN2ZmYmNiNjYwNjU5" alt="Store Locator"/></a>
         </div>
         <div id="nav-right">
             <div id="nav-right-sub">
+          
+           
             <div>
-                <a href="#">
-                <img id="india" src="https://www.fabindia.com/file/v8385693196996654632/general/india_flag.svg" alt="india" title="india">
-            </a>
-            </div>
-            <div>
-                <a href=""><img class="iconimg" src="https://www.fabindia.com/file/general/icon-search-black.svg" alt="Store Locator"/></a>
-            </div>
-            <div>
-                <a href=""><img class="iconimg" src="https://www.fabindia.com/file/general/icon-heart-black.png" alt="Store Locator"/></a>
-            </div>
-            <div>
-                <a href="./cart.html"><img class="iconimg" src="https://www.fabindia.com/file/general/icon-bag-black.png" alt="Store Locator"/></a>
+                <a href="./cart.html"><img class="iconimg" src="https://www.fabindia.com/assets/icons/Cart_Icon.svg" alt="Store Locator"/></a>
             </div>
         </div>
         </div>
@@ -189,4 +180,4 @@ return `<div id="header">
         </div>
     </div>`;
 }
-export default navbar
+export default navbar;
